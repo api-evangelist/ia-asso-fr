@@ -1,4 +1,4 @@
-# ia-asso-fr
+# IA-Asso.fr
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,110 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-ia-asso-fr is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://ia-asso.fr/
+IA-Asso.fr provides a comprehensive directory of French associations, aggregating data from the national association registry (RNA). It offers enriched RNA data, searchable by city, department, activity, or name, and includes API access via a REST interface and an MCP server for AI assistants. The platform aims to facilitate volunteer connections, research, and public access to association information.
+
+**Areas:** Associations · Directory · French · Open Data · MCP
+
+## IA-Asso.fr on APIs.io
+
+Everything profiled for IA-Asso.fr is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ia-asso-fr/](https://apis.io/providers/ia-asso-fr/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [IA-Asso.fr Public API](https://apis.io/apis/ia-asso-fr/ia-asso-fr-public-api/) — Public REST API for French associations directory
+- [IA-Asso.fr Associations API](https://apis.io/apis/ia-asso-fr/ia-asso-fr-associations-api/) — The Associations API from IA-Asso.fr — 1 operation(s) for associations.
+- [IA-Asso.fr Departements API](https://apis.io/apis/ia-asso-fr/ia-asso-fr-departements-api/) — The Departements API from IA-Asso.fr — 1 operation(s) for departements.
+- [IA-Asso.fr Search API](https://apis.io/apis/ia-asso-fr/ia-asso-fr-search-api/) — The Search API from IA-Asso.fr — 2 operation(s) for search.
+- [IA-Asso.fr Stats API](https://apis.io/apis/ia-asso-fr/ia-asso-fr-stats-api/) — The Stats API from IA-Asso.fr — 2 operation(s) for stats.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [IA-Asso.fr Agentic Access](https://apis.io/agentic-access/ia-asso-fr/ia-asso-fr-agentic-access/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Ia Asso Fr Context](https://apis.io/jsonld/ia-asso-fr/ia-asso-fr-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [IA-Asso.fr API Rules](https://apis.io/rules/ia-asso-fr/ia-asso-fr-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [IA-Asso.fr Domain Security](https://apis.io/security/ia-asso-fr/ia-asso-fr-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://ia-asso.fr/)
+- [Documentation](https://ia-asso.fr/api-documentation)
+- [API reference](https://ia-asso.fr/api-documentation)
+
+## API Evangelist rating
+
+**Kin Score 31.5** — thin · rubric 0.27.0 · scored 2026-11-12
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 44.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 23.1 |
+| Access clarity | 0.0 |
+
+**Agent readiness 42.1** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 10.8** — Government & Public Sector
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ia-asso-fr/](https://apis.io/providers/ia-asso-fr/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for IA-Asso.fr: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ia-asso-fr/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
